@@ -1,0 +1,22 @@
+{
+  "name": "scripting-demo-7",
+  "version": "1.0.0",
+  "description": "Scripting Lesson 7 Demo",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CU-IXD/cuixd-scripting-demo-7.git"
+  },
+  "author": "Phil Schanely <philschanely@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CU-IXD/cuixd-scripting-demo-7/issues"
+  },
+  "homepage": "https://github.com/CU-IXD/cuixd-scripting-demo-7#readme",
+  "devDependencies": {
+    "serve": "^11.2.0"
+  }
+}

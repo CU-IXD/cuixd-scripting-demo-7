@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example 1</title>
+    <link type="text/css" rel="stylesheet" href="https://bootswatch.com/3/darkly/bootstrap.css" />
+    <style>
+      .panel-heading:after {
+        clear:both;
+        display: block;
+        content:"";
+      }
+      .panel-title { padding-left:0; }
+      .list-group-item i {
+        opacity: 0.5;
+        transition: 0.2s opacity linear;
+        cursor: pointer;
+      }
+      .list-group-item:hover i {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body class="container">
+  
+  <header id="masthead" class="jumbotron">  
+    <h1>Example File</h1>
+    <p>The Main Event</p>
+  </header>
+  <main class="row">
+    <div id="info" class="col-sm-6">
+      <h2>Info</h2>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non orci non tristique. Aenean porta ut metus quis sollicitudin. Fusce eget purus est. Nullam eu eleifend dui. Maecenas eu ipsum in velit ornare maximus.</p>
+      <p> Etiam sed erat lectus. Sed ultricies nulla et dapibus posuere. Duis consectetur purus eu risus tempus pharetra. Duis quis urna nulla. Donec lorem sem, lobortis non erat et, maximus fringilla purus.</p>
+      <p>Aliquam blandit purus sit amet egestas faucibus. Suspendisse orci ipsum, scelerisque at est non, porttitor convallis tellus. Suspendisse potenti. Curabitur sodales nisl nec sapien placerat pellentesque sit amet in sem. Etiam laoreet semper tellus, ut feugiat libero. Sed sit amet augue tincidunt, dignissim tellus sit amet, mattis quam.</p>
+      <ul>
+        <li>Morbi quam sapien, fermentum rhoncus malesuada a, viverra ac dolor.</li>
+        <li>Fusce fringilla nibh eu imperdiet efficitur.</li>
+        <li>Suspendisse potenti. Etiam et libero ullamcorper, lacinia libero ut, tristique dui.</li>
+      </ul>
+      <div class="alert alert-info">
+        <p id="message">Info will appear here.</p>
+      </div>
+    </div>
+    <div id="shopping-list" class="shopping-list col-sm-6">
+      <h2>Shopping lists</h2>
+      <div id="list-1" class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title list-name col-sm-10">Aldi</h3>
+          <button class="btn btn-add btn-xs btn-success col-sm-2">+ Item</button>
+        </div>
+        <div class="panel-body">
+          <ul class="list-group">
+            <li id="item-1" class="list-group-item">Chicken</li>
+            <li id="item-2" class="list-group-item">Cucumber</li>
+            <li id="item-3" class="list-group-item">Peppers</li>
+            <li id="item-4" class="list-group-item">Onions</li>
+            <li id="item-5" class="list-group-item">Garlic</li>
+          </ul>
+        </div>
+      </div>
+      <div id="list-2" class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title list-name col-sm-10">Meijer</h3>
+          <button class="btn btn-add btn-xs btn-success col-sm-2">+ Item</button>
+        </div>
+        <div class="panel-body">
+          <ul class="list-group">
+            <li id="item-6" class="list-group-item">Curry sauce</li>
+            <li id="item-7" class="list-group-item">Rice</li>
+            <li id="item-8" class="list-group-item">Mango</li>
+            <li id="item-9" class="list-group-item">Lime juice</li>
+            <li id="item-10" class="list-group-item">Cocunut milk</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <div id="modal-confirm-delete" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Are you sure?</h4>
+        </div>
+        <div class="modal-body">
+          <p>Are you sure you want to delete that item? You won't be able to undo this action.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default btn-cancel" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-danger btn-confirm">Delete it!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script>
+  $(function(){
+    
+  });  
+  </script>
+</body>
+</html>
